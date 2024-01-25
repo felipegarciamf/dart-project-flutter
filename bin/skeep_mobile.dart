@@ -18,6 +18,11 @@ void main(List<String> arguments){
 
   List<String> teste = [ 'a', 'b', 'c' ];
 
+  for (var i = 0; i < teste.length; i++) {
+    print(teste[i]);
+  }
+
+
   print(teste);
 
   List<dynamic> teste2 = [ 'a', 'b', 'c', 1, 2, 3, true, false ];
