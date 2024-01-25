@@ -19,16 +19,22 @@ void main(List<String> arguments){
   List<String> teste = [ 'a', 'b', 'c' ];
 
   for (var i = 0; i < teste.length; i++) {
-    print(teste[i]);
+    print("teste for ${teste[i]}");
   }
 
   int i = 0;
 
   while(i < 10){
-    print("teste $i");
+    print("teste while $i");
     i++;
   }
 
+  int b = 0;
+
+  do {
+    print("teste dowhile $i");
+    b++;
+  } while(b < 10);
 
 
 
