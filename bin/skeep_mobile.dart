@@ -22,6 +22,15 @@ void main(List<String> arguments){
     print(teste[i]);
   }
 
+  int i = 0;
+
+  while(i < 10){
+    print("teste $i");
+    i++;
+  }
+
+
+
 
   print(teste);
 
