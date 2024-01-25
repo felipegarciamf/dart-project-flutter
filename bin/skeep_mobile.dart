@@ -7,6 +7,12 @@ void main(List<String> arguments){
   print('Hello world: ${id}!');
   print('Hello world: $isTrue!');
 
+  const String nomeConstante = "teste";
+  final String nomefinal;
+
+  print(nomeConstante);
+  print(nomefinal = "teste");
+
   List<String> teste = [ 'a', 'b', 'c' ];
 
   print(teste);
