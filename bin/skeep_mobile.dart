@@ -7,6 +7,9 @@ void main(List<String> arguments){
   print('Hello world: ${id}!');
   print('Hello world: $isTrue!');
 
+  // sempre colocar tipagem para que fique explicito
+  var testeVar = "teste";
+
   const String nomeConstante = "teste";
   final String nomefinal;
 
