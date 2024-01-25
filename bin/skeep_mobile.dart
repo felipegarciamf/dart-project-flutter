@@ -15,6 +15,8 @@ void main(List<String> arguments){
 
   print(teste2);
 
+  print("ola, que locura ${teste[1]} e ${teste[2]}");
+
 
 
 }
