@@ -10,6 +10,10 @@ void main(List<String> arguments){
   // sempre colocar tipagem para que fique explicito
   var testeVar = "teste";
 
+
+  // permite receber valor nulo
+  String? testeStrings = null;
+
   const String nomeConstante = "teste";
   final String nomefinal;
 
