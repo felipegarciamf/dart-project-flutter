@@ -36,3 +36,32 @@ mostrarMadura(String nome, int dias, {String? cor, required String teste}) {
 
 }
 
+class Fruta {
+
+  Fruta(this.nome, this.peso, this.cor, this.sabor, this.diasDesdeColheita,
+      this.isMadura);
+
+  String nome;
+  double peso;
+  String cor;
+  String sabor;
+  int diasDesdeColheita;
+  bool? isMadura;
+
+
+  mostrarMadura(String nome, int dias, {String? cor, required String teste}) {
+    if(dias >= 30){
+      print("$nome está madura");
+    } else {
+      print("$nome não está madura");
+    }
+
+    if(cor != null){
+      print("A cor da fruta é $cor");
+    } else  {
+      print("A cor da fruta não foi definida");
+    }
+
+  }
+
+}
